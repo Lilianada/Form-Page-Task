@@ -1,0 +1,126 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'muli', sans-serif;  
+    color: black;
+    background-color: #9CC3D5FF;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.wrapper{
+    padding: 20px 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px #38566b;
+}
+
+h2{ 
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30rem;
+    background-color: #0063B2FF;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 10px #25252593;
+}
+div h4{
+    font-size: 20px;
+    margin-bottom:0 ;
+}
+
+.input-box input{  
+    border-radius: 5px;
+    width: 15rem;
+    height: 2rem;
+    display: inline;
+    border: none;
+    margin-top: 1em;
+    background-color: rgb(245, 242, 231);
+}
+h4{
+    font-size: 20px;
+}
+.input-box .fa-user {
+    background-position: left;
+    left: 5px;
+    color: gray;
+    transform: translateX(-25px);
+}
+.input-box .fa-envelope {
+    background-position: left;
+    left: 5px;
+    color: gray;
+    transform: translateX(-30px);
+}
+.input-box .dob{
+    margin-top: 2em;
+    justify-content: space-between;
+    display: inline-flex;
+    margin-right: 1rem;
+    width: 6rem;
+    height: 2rem;
+    align-items: center;
+    position: relative;
+}
+.input-box .radio{
+    width: 30px;
+    height: 20px;
+    margin-top: 2em;
+}
+.input-box select{
+    margin-top: 2em;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    background-color: rgba(245, 242, 231);
+    margin-right: 1rem;
+}
+.input-box [type="tel"]{
+    justify-content: space-between;
+    position: relative;
+}
+.input-box .fa-credit-card {
+    background-position: left;
+    left: 5px;
+    color: gray;
+    transform: translateX(-30px);
+}
+.input-box [placeholder="Card CVC"]{
+    width: 6rem;
+    height: 2rem;
+}
+button {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 2em;
+    background-color: #0063B2FF;
+    color: #fff;
+    margin-left: 8rem;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px #25252593;
+    border: none;
+}
+button:hover{
+    background-color: #38566b;
+}
